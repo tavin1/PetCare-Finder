@@ -1,0 +1,57 @@
+.header {
+    background-color: #19a17879;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+
+/* Estilizando o container do menu */
+nav {
+  background-color: #19a17879;
+  border-bottom: none;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  width: 50%;
+  margin-left: 23%;
+  margin-top: 20px;
+  border-radius: 22px;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Estilizando as opções do menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block; /* Coloca os itens na mesma linha */
+  margin-right: 30px; /* Espaçamento entre os itens */
+}
+
+a {
+  text-decoration: none;
+  color: #004080; /* Cor azul-ciano escuro para os links */
+  padding: 8px 35px; /* Espaçamento interno nos links */
+  border: 2px solid #004080; /* Borda azul-ciano escuro nos links */
+  border-radius: 25px; /* Borda arredondada */
+  margin: auto;
+  transition: background-color 0.3s, color 0.3s; /* Transição suave de cor e fundo */
+}
+
+/* Altera a cor de fundo e texto quando o mouse está sobre o link */
+a:hover {
+  background-color: #004080;
+  color: #ffffff;
+}
