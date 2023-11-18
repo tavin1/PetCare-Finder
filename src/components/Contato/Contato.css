@@ -1,0 +1,38 @@
+/* App.css */
+
+.contato-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .contato-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contato-info div {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .contato-info strong {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contato-info p {
+    margin: 0;
+    color: #666;
+  }
+  

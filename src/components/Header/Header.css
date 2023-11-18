@@ -16,8 +16,7 @@
 /* Estilizando o container do menu */
 nav {
   background-color: #19a17879;
-  border-bottom: none;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
   position: fixed;
   width: 50%;
@@ -37,7 +36,7 @@ ul {
 
 li {
   display: inline-block; /* Coloca os itens na mesma linha */
-  margin-right: 30px; /* Espaçamento entre os itens */
+  margin-right: 8px; /* Espaçamento entre os itens */
 }
 
 a {
@@ -54,4 +53,11 @@ a {
 a:hover {
   background-color: #004080;
   color: #ffffff;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Pet-card {
+    width: 100%;
+  }
 }
